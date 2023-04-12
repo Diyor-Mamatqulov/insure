@@ -1,0 +1,118 @@
+
+@font-face {
+  font-family: "Karla";
+  font-weight: 400;
+  font-display: swap; 
+  src: url("./fonts/karla-v23-latin-regular.woff2") format("woff2"), 
+  url("./fonts/karla-v23-latin-regular.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Karla";
+  font-weight: 700;
+  font-display: swap; 
+  src: url("./fonts/karla-v23-latin-700.woff2") format("woff2"),
+  url("./fonts/karla-v23-latin-700.woff") format("woff");
+}
+@font-face {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-display: swap; 
+  src: url("./fonts/dm-serif-display-v11-latin-regular.woff2") format("woff2"), 
+  url("./fonts/dm-serif-display-v11-latin-regular.woff") format("woff"); 
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Karla", "Arial", sans-serif;
+  margin: 0;
+}
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.div-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 31px 0;
+}
+.site-nav {
+  
+}
+.nav-list {
+  display: flex;
+  /* justify-content: flex-end; */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-item {
+  display: flex;
+  margin-top: 0;
+  margin-right: 26px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+.nav-item:nth-child(3) {
+  margin-right: 33px;
+}
+.nav-link {
+  color: #837d88;
+  text-decoration: none;
+}
+.header-link {
+  padding: 13px 28px;
+  color: #2C2830;
+  background-color: #ffffff;
+  border: 1.5px solid #2C2830;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+.intro {
+  background-color: #2d2641;
+}
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.div-intro {
+  
+}
+.intro-wrapper {
+  width: 540px;
+  padding-top: 105px;
+}
+.intro-span {
+  display: block;
+  margin: 0 auto 63px auto;
+  width: 150px;
+  background-color: #ffffff;
+  height: 1px;
+}
+.intro-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+.intro-describe {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
