@@ -102,11 +102,9 @@ body {
   
 }
 .intro {
-  background-image: url("./images/web-img.svg") , 
-  url("./images/web-second.svg");
+  background-image: url("./images/web-img.svg");
   background-repeat: no-repeat;
-  background-position: calc(50% + 607px) calc(50% - 95px) ,
-  calc(50% + -880px) calc(50% - -440px);
+  background-position: calc(50% + 607px) calc(50% - 95px);
 }
 .container {
   width: 1150px;
@@ -172,6 +170,11 @@ body {
 .intro-img {
   display: block;
   position: absolute;
+}
+.site-different {
+  background-image: url("./images/web-img.svg");
+  background-position: calc(50% + -880px) calc(50% - 1px);
+  background-repeat: no-repeat;
 }
 .container {
   width: 1150px;
