@@ -28,8 +28,10 @@ html {
 }
 body {
   font-family: "Karla", "Arial", sans-serif;
-  margin: 0;
+  display: flex;
+  flex-direction: column;
   height: 100%;
+  margin: 0;
 }
 .container {
   width: 1150px;
@@ -41,6 +43,10 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 31px 0;
+}
+.div-nav {
+  display: flex;
+  align-items: center;
 }
 .nav-list {
   display: flex;
@@ -94,6 +100,7 @@ body {
   color: #ffffff;
 }
 .site-main {
+  flex-grow: 1;
   position: relative;
 }
 .intro {
@@ -336,7 +343,7 @@ body {
   fill:#837d88;
   transition: 0.5s;
 }
-.footer-link:hover {
+.footer-link:active {
   fill: #2c2830;
 }
 .container {
